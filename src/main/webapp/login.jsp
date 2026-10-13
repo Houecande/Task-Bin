@@ -12,7 +12,7 @@
         <title>Task Bin - Connexion</title>
     </head>
     <body>
-        <div>
+    <div>
         <div>
             <div>
                 <h1>Task Bin</h1>
@@ -30,17 +30,17 @@
             </div>
             <form action="login" method="POST">
                 <div>
-                    <label for="email">Email</label>
+                    <label for="email"><i class="fas fa-envelope"></i>Email</label>
                     <input type="email" id="email" name="email" required placeholder="armandblade.com">
                 </div>
                 <div>
-                    <label for="password">Mot de passe</label>
+                    <label for="password"><i class="fas fa-lock"></i>Mot de passe</label>
                     <input type="password" id="password" name="password" required placeholder="••••••••">
                 </div>
                 <button type="submit">Se connecter</button>
             </form>
             <div>
-                <p>&copy; 2026 - Task Bin. Tous droits réservés.</p>
+                <p>&copy; <%= java.time.Year.now().getValue() %> Task Bin. Tous droits réservés.</p>
             </div>
         </div>
     </div>
