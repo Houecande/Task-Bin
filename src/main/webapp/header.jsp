@@ -6,5 +6,5 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <header>
-    <h1>Dashboard</h1>
+    <h1>${titre}</h1>
 </header>

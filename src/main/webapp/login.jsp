@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="page-login">
     <div class="login-container">
         <div class="login-sidebar">
             <div>
@@ -30,7 +30,7 @@
                 <h3>Bienvenue</h3>
                 <p>Connectez-vous à votre espace de gestion.</p>
             </div>
-            <form action="login" method="POST">
+            <form action="LoginServlet" method="POST">
                 <div class="champ">
                     <label for="email"><i class="fas fa-envelope"></i>Email</label>
                     <input type="email" id="email" name="email" required placeholder="armandblade.com">
